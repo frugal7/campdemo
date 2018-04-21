@@ -1,0 +1,41 @@
+<% include partials/header %>
+
+<!--
+<form action="/campgrounds" method="POST">
+    <input type="text" name="name" placeholder="name" />
+    <input type="text" name="url" placeholder="image URL"  />
+    
+    <button>Submit!</button>
+ --> 
+<div class="container">
+    
+        <h3 style="text-align:center;">Create a new campground!</h3>
+
+            </form>
+        
+              <form action="/campgrounds" method="POST">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" class="form-control" id="name"  placeholder="Enter name">
+                <small id="emailHelp" class="form-text text-muted">Please, enter name of the campground!</small>
+              </div>
+              
+              <form action="/campgrounds" method="POST">
+              <div class="form-group">
+                <label for="url">URL</label>
+                <input type="text" name="url" class="form-control" id="url"  placeholder="Enter name">
+                <small id="emailHelp" class="form-text text-muted">Please, enter valid image URL!</small>
+              </div>
+              
+              
+            
+              <button type="submit" class="btn btn-primary">Submit</button>
+              <a class="btn btn-outline-danger" href="/campgrounds" role="button">Go back</a>
+            </form>    
+
+        
+        
+</div>
+
+
+<% include partials/footer %>
